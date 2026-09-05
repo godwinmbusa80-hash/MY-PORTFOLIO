@@ -381,9 +381,6 @@ contactForm.addEventListener("submit", event => {
     formMessage.textContent =
         "Thank you! Your message has been received.";
 
-
-    contactForm.reset();
-
 });
 
 
