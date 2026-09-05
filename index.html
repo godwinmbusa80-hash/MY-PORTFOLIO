@@ -84,18 +84,22 @@
 
         <!-- ================= HERO ================= -->
 
+       
+
         <section class="hero" id="home">
 
             <div class="container hero-content">
 
                 <div class="hero-text reveal">
 
+                   <img src="photo.JPG" alt="Hero Background" class="hero-bg">
+
                     <p class="small-heading">
                         HELLO, I'M
                     </p>
 
                     <h1>
-                        Your Name
+                        MBUSA GODWIN
                     </h1>
 
                     <h2>
@@ -130,7 +134,7 @@
                             LinkedIn
                         </a>
 
-                        <a href="https://wa.me/256700000000" target="_blank">
+                        <a href="https://wa.me/256789711528" target="_blank">
                             WhatsApp
                         </a>
 
@@ -165,7 +169,7 @@
                             <p class="indent">
                                 name:
                                 <span class="green">
-                                    "Your Name"
+                                    "MBUSA GODWIN"
                                 </span>,
                             </p>
 
@@ -245,6 +249,10 @@
                             professional, communicate clearly and help
                             businesses and organizations establish a strong
                             online presence.
+                        </p>
+
+                        <p>
+                          I look forward to learning more technologies for example React, Node.js,Databases, and other technologies to improve my skills and become a full stack developer.
                         </p>
 
                     </div>
@@ -586,7 +594,7 @@
 
                             <div class="project-buttons">
 
-                                <a href="#" class="project-link">
+                                <a href="https://st-marthia-mulumba.netlify.app" class="project-link">
                                     Live Website →
                                 </a>
 
@@ -641,7 +649,7 @@
 
                             <div class="project-buttons">
 
-                                <a href="#" class="project-link">
+                                <a href="https://ibanda-catholic-church.netlify.app" class="project-link">
                                     Live Website →
                                 </a>
 
@@ -677,7 +685,7 @@
                             </p>
 
                             <h3>
-                                Godwin Online Learn
+                                Super Online Learn
                             </h3>
 
                             <p>
@@ -696,7 +704,7 @@
 
                             <div class="project-buttons">
 
-                                <a href="#" class="project-link">
+                                <a href="https://super-online-learning.netlify.app" class="project-link">
                                     Live Website →
                                 </a>
 
@@ -896,21 +904,21 @@
                             <div>
                                 <strong>Email</strong>
                                 <p>
-                                    your@email.com
+                                    godwinmbusa80@gmail.com
                                 </p>
                             </div>
 
                             <div>
                                 <strong>Phone</strong>
                                 <p>
-                                    +256 700 000000
+                                    +256 789 711 528
                                 </p>
                             </div>
 
                             <div>
                                 <strong>Location</strong>
                                 <p>
-                                    Uganda
+                                    Kasese, Uganda
                                 </p>
                             </div>
 
@@ -919,57 +927,68 @@
                     </div>
 
 
-                    <form class="contact-form reveal" id="contact-form">
+                    ```html
+<form name="contact" method="POST" data-netlify="true" class="contact-form reveal" id="contact-form">
 
-                        <div class="form-group">
+    <!-- Required by Netlify -->
+    <input type="hidden" name="form-name" value="contact">
 
-                            <label for="name">
-                                Your Name
-                            </label>
+    <div class="form-group">
 
-                            <input
-                                type="text"
-                                id="name"
-                                placeholder="Enter your name"
-                                required>
+        <label for="name">
+            Your Name
+        </label>
 
-                        </div>
+        <input 
+            type="text" 
+            id="name"
+            name="name"
+            placeholder="Enter your name" 
+            required>
 
-
-                        <div class="form-group">
-
-                            <label for="email">
-                                Email Address
-                            </label>
-
-                            <input
-                                type="email"
-                                id="email"
-                                placeholder="Enter your email"
-                                required>
-
-                        </div>
+    </div>
 
 
-                        <div class="form-group">
+    <div class="form-group">
 
-                            <label for="message">
-                                Project Details
-                            </label>
+        <label for="email">
+            Email Address
+        </label>
 
-                            <textarea
-                                id="message"
-                                rows="6"
-                                placeholder="Tell me about your project..."
-                                required></textarea>
+        <input 
+            type="email" 
+            id="email"
+            name="email"
+            placeholder="Enter your email" 
+            required>
 
-                        </div>
+    </div>
 
 
-                        <button type="submit"
-                            class="btn primary-btn submit-btn">
+    <div class="form-group">
 
-                            Send Message
+        <label for="message">
+            Project Details
+        </label>
+
+        <textarea 
+            id="message"
+            name="message"
+            rows="6" 
+            placeholder="Tell me about your project..." 
+            required></textarea>
+
+    </div>
+
+
+    <button type="submit" 
+        class="btn primary-btn submit-btn">
+
+        Send Message
+
+    </button>
+
+</form>
 
                         </button>
 
