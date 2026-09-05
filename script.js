@@ -375,7 +375,7 @@ const formMessage =
 
 contactForm.addEventListener("submit", event => {
 
-    event.preventDefault();
+    
 
 
     formMessage.textContent =
